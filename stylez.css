@@ -1,6 +1,87 @@
-/* .menu {
-    height: 150px;
-    background-color: blue;
-    display: inline-block;
-} */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(53, 123, 166);
+    height: 50px;
+}
 
+li {
+    display: inline;
+    padding: 15px;
+    line-height: 50px;
+}
+
+.home{
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.home {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+    color: white;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 20px;
+    color: rgb(54, 116, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer {
+    color: rgb(53, 123, 166);
+    font-weight: bold;
+}
+
+.membership {
+    color: rgb(232, 129, 50);
+    text-transform: uppercase;
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: inline-block;
+}
+
+.membership > p {
+    margin: 5px;
+}
+
+.socialmedia > p{
+    display: inline-block;
+    height: 50px;
+    width: 125px;
+    margin-left: 0px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(249, 245, 254);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(206, 206, 206);
+}
+
+.instagram {
+    background-color: rgb(135, 75, 244);
+    border: solid 1px rgb(92, 51, 167);
+}
+
+.facebook {
+    background-color: rgb(53, 120, 234);
+    border: solid 1px rgb(37, 82, 161);
+}
+
+.youtube {
+    background-color: rgb(234, 50, 35);
+    border: solid 1px rgb(161, 35, 24);
+}
