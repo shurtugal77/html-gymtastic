@@ -159,3 +159,9 @@ p {
     background-position-y: 65%;
     border: solid 2px rgb(53, 120, 234)
 }
+
+.mahballz {
+    background-image: url("/images/mahballz.jpg");
+    background-size: cover;
+    border: solid 2px rgb(53, 120, 234)
+}
